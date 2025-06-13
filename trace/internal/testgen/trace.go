@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/raw"
+	"golang.org/x/exp/trace/raw"
 	"golang.org/x/exp/trace/internal/tracev2"
 	"golang.org/x/exp/trace/internal/version"
 	"golang.org/x/tools/txtar"

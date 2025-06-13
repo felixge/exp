@@ -72,7 +72,7 @@ mv $DST/testtrace $DST/internal/testtrace
 
 # Fix up import paths.
 find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's internal/trace golang.org/x/exp/trace '
-find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/raw golang.org/x/exp/trace/internal/raw '
+find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/raw golang.org/x/exp/trace/raw '
 find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/tracev2 golang.org/x/exp/trace/internal/tracev2 '
 find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/version golang.org/x/exp/trace/internal/version '
 find $DST -name '*.go' | xargs -- sed -i'.tmp' -e 's golang.org/x/exp/trace/testtrace golang.org/x/exp/trace/internal/testtrace '
