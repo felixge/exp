@@ -23,7 +23,7 @@ import (
 	"golang.org/x/exp/trace"
 	"golang.org/x/exp/trace/raw"
 	"golang.org/x/exp/trace/internal/testtrace"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 var (

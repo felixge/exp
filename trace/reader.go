@@ -17,7 +17,7 @@ import (
 
 	"golang.org/x/exp/trace/internal/tracev1"
 	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 // Reader reads a byte stream, validates it, and produces trace events.

@@ -14,7 +14,7 @@ import (
 	"io"
 
 	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 // Writer emits the wire format of a trace.

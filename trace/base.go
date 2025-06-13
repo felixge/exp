@@ -17,7 +17,7 @@ import (
 	"strings"
 
 	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 // timedEventArgs is an array that is able to hold the arguments for any

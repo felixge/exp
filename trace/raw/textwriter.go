@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 // TextWriter emits the text format of a trace.

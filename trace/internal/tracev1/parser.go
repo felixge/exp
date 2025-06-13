@@ -21,7 +21,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 	"io"
 	"math"
 	"slices"

@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"golang.org/x/exp/trace/internal/tracev2"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 )
 
 // ordering emulates Go scheduler state for both validation and

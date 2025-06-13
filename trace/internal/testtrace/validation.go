@@ -12,7 +12,7 @@ import (
 	"errors"
 	"fmt"
 	"golang.org/x/exp/trace"
-	"golang.org/x/exp/trace/internal/version"
+	"golang.org/x/exp/trace/version"
 	"slices"
 	"strings"
 )
